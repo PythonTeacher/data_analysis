@@ -1,0 +1,29 @@
+# 다음 개발자 사이트 : http://developers.daum.net/
+
+apiKey = "4b8d86da6c0c184f24d4afc0caa96347"
+q = "Python"
+output = "json"
+
+url = "https://apis.daum.net/search/book?apiKey={apiKey}&q={q}&output={output}"\
+                .format(apiKey=apiKey, q=quote(q), output=output)
+
+
+
+# SKPlanet 개발자 사이트 : https://developers.skplanetx.com/
+
+apiKey = "4ce8bb31-9934-376b-8a64-0b5922ad9f71"
+page = "1"
+count = "10"
+
+url = "http://apis.skplanetx.com/melon/charts/realtime?version=1&page={page}&count={count}"\
+            .format(page=page, count=count)
+
+
+# 오픈 API
+
+# 공공데이터 포털 : http://data.go.kr
+# 통계청 : http://kosis.kr/openapi
+# 서울시 : http://data.seoul.go.kr
+# 카카오 : https://developers.kakao.com/docs
+# 네이버 : https://developers.naver.com/main
+# ...
